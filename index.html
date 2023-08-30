@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Umar Farook portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/677724173f.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>IFS Developer / Automation Tester</p>
+                <h1>Hi, I'm <span>Farook</span><br>From Chennai.</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Passionate software engineer with 2 years of experience in both Automation Testing and in developing
+                        and implementing solutions using IFS Application and certified in IFS 10 Application form development
+                        and IFS Practitioner Technical Consultant (IFS Cloud) with expertise in IFS configuration and customization
+                        and Report designing.Skilled in understanding business requirements and delivering effective solutions using a
+                        diverse range of technologies. Adapt at collaborating with stakeholders and working in dynamic team environments.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <!-------<i class="fa-solid fa-square-caret-down"></i>------->
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>IFS Developer/Tester</span><br>Worked on different domine in Testing and Developing</li>
+                            <li><span>Automation Testing</span><br>Using Selinium and Cucumber framework.</li>
+                            <li><span>IFS Developing</span><br>Configuration and Customization in IFS IEE and Cloud.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Associate Engineer in IFS at ProV Infotech.</li>
+                            <li><span>2021 - 2022</span><br>Core Java Trainer at Greens Technology.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Automation Testing at Greens Technology.</li>
+                            <li><span>2021</span><br>BCA From Mohamed Sathak Collage of Arts and Science.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------services--------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>IFS Developer</h2>
+                    <p>
+                        Worked for AFRY (A Swedish based company) in development of custom objects like custom fields,
+                        custom events, custom Menu.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>Manual Testing</h2>
+                    <p>
+                        Worked for AFRY (A Swedish based company) in development of custom objects like custom fields,
+                        custom events, custom Menu.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Automation Testing</h2>
+                    <p>
+                        Worked for AFRY (A Swedish based company) in development of custom objects like custom fields,
+                        custom events, custom Menu.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------Portfolio----------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>IFS Developing(AFRY)</h3>
+                        <p>
+                            It's A Swedish based company I have worked in development of custom objects like custom fields,
+                            custom events, custom Menu.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Manual Testing(MGM)</h3>
+                        <p>
+                            It's A Swedish based company I have worked in development of custom objects like custom fields,
+                            custom events, custom Menu.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Automation Testing(MGM)</h3>
+                        <p>
+                            It's A Swedish based company I have worked in development of custom objects like custom fields,
+                            custom events, custom Menu.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-------------------Contact-------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>farooksulthan64@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i></i>9840256364</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mohammed-umar-farook-026216214/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/MohammedUmarFarook"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/Farook0115"><i class="fa-brands fa-x-twitter"></i></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100028266780260"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Ⓒ 2023 Mohammed Umar Farook | All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwFvHfoFJc_f7wPN-qA0jkSDkrjtj2i5E3BvuHoSWMfGrycYNk_q8NH5xA3ttnZR8A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Thank you for your response."
+                    setTimeout(function () {
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
